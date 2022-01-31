@@ -1,6 +1,8 @@
-const fs = require('fs');
-//const inquirer = require("inquirer");
 
+const inquirer = require("inquirer");
+const fs = require('fs');
+//const generatePage = require('./src/page-template');
+console.log(inquirer);
 
 const generatePage = () => {
     return `
@@ -10,8 +12,8 @@ const generatePage = () => {
 }
 
 
-fs.writeFile('README.md', generatePage(), err => {
-    if (err) throw err;
+// fs.writeFile('README.md', generatePage(), err => {
+    //if (err) throw err;
   
-    console.log('Portfolio complete! Check out README.md to see the output!');
-  });
+    //console.log('Portfolio complete! Check out README.md to see the output!');
+  //});
