@@ -1,3 +1,4 @@
+
 const fs = require('fs');
 const inquirer = require("inquirer");
 
@@ -121,7 +122,6 @@ const userInput = () => {
 
             },
 
-
             {
                 type: 'input',
                 message: 'What command for testing the codes?',
@@ -170,7 +170,4 @@ userInput()
 .catch(err => {
     console.log(err);
 });
-
-
-
 
