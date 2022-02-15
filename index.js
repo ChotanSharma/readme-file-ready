@@ -1,4 +1,8 @@
+<<<<<<< HEAD:index.js
 // TODO: Include packages needed for this application
+=======
+
+>>>>>>> f97310372607b45411f393480fc73093230bb35a:app.js
 const fs = require('fs');
 const inquirer = require("inquirer");
 const generatePage = require("./src/page-template.js");
@@ -107,7 +111,6 @@ const questions = () => {
 
             },
 
-
             {
                 type: 'input',
                 message: 'What command for testing the codes?',
@@ -155,7 +158,3 @@ questions()
 .catch(err => {
     console.log(err);
 });
-
-
-
-
