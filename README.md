@@ -13,16 +13,16 @@
    * [Questions](#questions)
       
    ## Installation 
-    Node modules, npm inquirer
+   Node modules, npm inquirer
    ## Usage 
    The users download the files from github and node modules to run it.
    To watch the video:[Screencastiy](https://watch.screencastify.com/v/deorXrAWuBVcVEUFtOPC)
    ## License 
-    This project is license under GNU
+   This project is license under GNU
    ## Contributing 
-    Chotan Sharma
+   Chotan Sharma
    ## Tests
-     npm test
+   npm test
    ## Questions
-     please  feel easy to contact me at chotansharma@yahoo.com. For more of my projects, you are aways welcome to my portfolio at https://github.com/ChotanSharma.
+   please  feel easy to contact me at chotansharma@yahoo.com. For more of my projects, you are aways welcome to my portfolio at https://github.com/ChotanSharma.
     
