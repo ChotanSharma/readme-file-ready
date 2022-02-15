@@ -15,8 +15,8 @@
    ## Installation 
       Node modules, npm inquirer
    ## Usage 
-      The users download the files from github and node modules to run it.
-      To watch the video:[Screencastiy](https://watch.screencastify.com/v/deorXrAWuBVcVEUFtOPC)
+    The users download the files from github and node modules to run it.
+   To watch the video:[Screencastiy](https://watch.screencastify.com/v/deorXrAWuBVcVEUFtOPC)
    ## License 
       This project is license under GNU
    ## Contributing 
