@@ -1,10 +1,10 @@
   
-      # fsdbfna
+      # readme-file-ready
       
-      ![Lincense: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+      ![Lincense: GNU](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
       ## Description 
-      sn fasm 
+      The project aims to generate a professional README.md file automatically by answering some prompts.
       ## Table of Contents
       * [Installation](#installation)
       * [Usage](#usage)
@@ -14,14 +14,14 @@
       * [Questions](#questions)
       
       ## Installation 
-      hdfbd f
+      Node modules, npm inquirer
       ## Usage 
-      dfsm
+      The users download the files from github and node modules to run it.
       ## License 
-      This project is license under MIT
+      This project is license under GNU
       ## Contributing 
-      fbdnf
+      Chotan Sharma
       ## Tests
       npm test
       ## Questions
-      please  feel easy to contact me at vjdsfskm. For more of my projects, you are aways welcome to my portfolio at https://github.com/sdvsn v.
+      please  feel easy to contact me at chotansharma@yahoo.com. For more of my projects, you are aways welcome to my portfolio at https://github.com/ChotanSharma.
