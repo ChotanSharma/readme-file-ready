@@ -1,8 +1,8 @@
  
-        ![Lincense: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+        ![Lincense: GNU](https://img.shields.io/badge/License-GPLv3-blue.svg)
       # readme-file-ready
       ## Description 
-      AS A developer
+      As a user I want to generate a readme file automatically so that I can save my time.
       ## Table of Contents
       * [Installation](#installation)
       * [Usage](#usage)
@@ -12,11 +12,11 @@
       * [Questions](#questions)
       
       ## Installation 
-      The users need to download the npm modules and inquirer
+      Node modules and npm inquirer
       ## Usage 
-      SO THAT I can quickly create a professional README for a new project
+      The user need to use node modules and npm inquirer. When the index file runs, the questions prompt up and users answer the questions and get a readme file ready.
       ## License 
-      This project is license under MIT
+      This project is license under GNU
       ## Contributing 
       Chotan Sharma
       ## Tests
