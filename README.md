@@ -1,8 +1,10 @@
- 
-        ![Lincense: GNU](https://img.shields.io/badge/License-GPLv3-blue.svg)
-      # readme-file-ready
+  
+      # fsdbfna
+      
+      ![Lincense: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
       ## Description 
-      As a user I want to generate a readme file automatically so that I can save my time.
+      sn fasm 
       ## Table of Contents
       * [Installation](#installation)
       * [Usage](#usage)
@@ -12,14 +14,14 @@
       * [Questions](#questions)
       
       ## Installation 
-      Node modules and npm inquirer
+      hdfbd f
       ## Usage 
-      The user need to use node modules and npm inquirer. When the index file runs, the questions prompt up and users answer the questions and get a readme file ready.
+      dfsm
       ## License 
-      This project is license under GNU
+      This project is license under MIT
       ## Contributing 
-      Chotan Sharma
+      fbdnf
       ## Tests
       npm test
       ## Questions
-      please  feel easy to contact me at chotansharma@yahoo.com. For more of my projects, you are aways welcome to my portfolio at https://github.com/ChotanSharma.
+      please  feel easy to contact me at vjdsfskm. For more of my projects, you are aways welcome to my portfolio at https://github.com/sdvsn v.

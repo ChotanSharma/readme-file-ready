@@ -35,9 +35,11 @@ function renderLicenseSection(data) {
 
 
 const generatePage = (data) => {
-  return ` 
-        ${renderLicenseSection(data)}
+  return `  
       # ${data.title}
+      
+      ${renderLicenseSection(data)}
+
       ## Description 
       ${data.description}
       ## Table of Contents
