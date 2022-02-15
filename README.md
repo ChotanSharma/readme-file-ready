@@ -1,6 +1,8 @@
- # j
+ 
+        ![Lincense: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+      # readme-file-ready
       ## Description 
-      kk
+      AS A developer
       ## Table of Contents
       * [Installation](#installation)
       * [Usage](#usage)
@@ -10,15 +12,14 @@
       * [Questions](#questions)
       
       ## Installation 
-      jbj
+      The users need to download the npm modules and inquirer
       ## Usage 
-      jjj
+      SO THAT I can quickly create a professional README for a new project
       ## License 
-      This project is license under  Mozilla
+      This project is license under MIT
       ## Contributing 
-      kn
+      Chotan Sharma
       ## Tests
-      hj
+      npm test
       ## Questions
-      please  feel easy to contact me at kk. For more of my projects, you are aways welcome to my portfolio at https://github.com/jj.
-    
+      please  feel easy to contact me at chotansharma@yahoo.com. For more of my projects, you are aways welcome to my portfolio at https://github.com/ChotanSharma.

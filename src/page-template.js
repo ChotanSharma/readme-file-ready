@@ -1,6 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-/*const renderLicenseBadge = data => {
+const renderLicenseBadge = data => {
   let license =  `${data.license}`;
   if(!license) {
     return ''
@@ -30,19 +30,14 @@ function renderLicenseLink(data) {
 // If there is no license, return an empty string
 function renderLicenseSection(data) {
   let licenseSection = renderLicenseBadge(data);
-  licenseSection+=renderLicenseLink(data);
+  return licenseSection+=renderLicenseLink(data);
+};
 
-}
-
-const generateReadmePage = data => {
-  
-
- 
-};*/
 
 const generatePage = (data) => {
-    //renderLicenseSection(data);
-    return `# ${data.title}
+  return ` 
+        ${renderLicenseSection(data)}
+      # ${data.title}
       ## Description 
       ${data.description}
       ## Table of Contents
@@ -68,6 +63,5 @@ const generatePage = (data) => {
     
 }
   
-  
-  // use for importing Markdown in app.js
+// use for importing Markdown in app.js
 module.exports = generatePage;
