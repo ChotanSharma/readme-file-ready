@@ -1,12 +1,12 @@
+// TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require("inquirer");
-
 const generatePage = require("./src/page-template.js");
 
+// TODO: Create an array of questions for user input
 
-// function to collect user's date using inquirer method
-const userInput = () => {
-     return inquirer.prompt(
+const questions = () => {
+    return inquirer.prompt(
         [
             {
                 type: 'input',
@@ -19,20 +19,6 @@ const userInput = () => {
                         return 'We cannot proceed without title.Please, give the name of your project.';
                     }
                 }
-            },
-
-            {
-                type: 'input',
-                message: 'What is your GitHub Id?',
-                name: 'github',
-                validate: (value) => {
-                    if(value) {
-                        return true;
-                    } else {
-                        return 'Please, your user name.';
-                    }
-                }
-
             },
 
             {
@@ -95,7 +81,7 @@ const userInput = () => {
                 type: 'list',
                 name: 'license',
                 message: 'What kind of license should your project have?',
-                choices: ['MIT', 'GNU', ' Mozilla', 'Perl'],
+                choices: ['MIT', 'GNU', ' Mozilla'],
                 default: ["MIT"],
                 validate: nameInput => {
                     if (nameInput) {
@@ -145,12 +131,11 @@ const userInput = () => {
 
             }
 
-        ]
+        ]);
+};
 
-    )
-}
-// write the file 
-const readmeFile = data => fs.writeFile(`README.md`, data, err => {
+// TODO: Create a function to write README file to be called later
+const readmeFile = data => fs.writeFile('README.md', data, err => {
     if (err) throw err;
   
     console.log('Portfolio complete! Check out README.md to see the output!');
@@ -158,8 +143,8 @@ const readmeFile = data => fs.writeFile(`README.md`, data, err => {
  
 
 
-// use the user's prompt to generate a page and make the readme file.
-userInput()
+// // TODO: Create a function to initialize app by generatePage() function and make the readme file and call the function.
+questions()
 .then(answers => {
     console.log(answers);
     return generatePage(answers);  
